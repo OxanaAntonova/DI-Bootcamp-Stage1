@@ -1,0 +1,100 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2d4059;
+    padding: 10px;
+}
+.item {
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+.first {
+    margin-right: auto;
+}
+.about {
+    display: flex;
+}
+.harvey {
+    flex:1;
+}
+body {
+    background-color: #d6e6f2;
+}
+body:hover {
+    background-color: #f5eee6;
+}
+.Law {
+    display: flex;
+}
+.text {
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    align-self: center;
+    padding: 10px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    color: #112d4e;
+    font-size: 30px;
+}
+.heading:hover {
+    color: #07689f;
+}
+.branch {
+    display: flex;
+    justify-content: space-evenly;
+}
+.legal {
+    list-style: none;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+.legal:hover {
+    background-color: #384259; ;
+    color: white;
+}
+.money {
+    display: flex;
+    justify-content: space-evenly;
+}
+.price {
+    list-style: none;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+.price:hover {
+    background-color:#384259;
+    color: white;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family:'Roboto', sans-serif;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.cta {
+    background-color: #3f72af;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 15px;
+    cursor:help;
+    flex:1;
+}
+.cta:hover {
+    background-color: #384259;
+}
